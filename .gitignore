@@ -1,0 +1,70 @@
+**pycache**/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Python
+
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+
+venv/
+env/
+.venv/
+
+# Environment Variables
+
+.env
+.env.*
+
+# Jupyter
+
+*.ipynb_checkpoints
+
+# Model Files
+
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+
+# Hugging Face Cache
+
+.cache/
+huggingface_cache/
+
+# ChromaDB
+
+chroma_db/
+chromadb/
+
+# Logs
+
+*.log
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# VS Code
+
+.vscode/
+
+# PyCharm
+
+.idea/
+
+# Data Files (optional if dataset is large)
+
+data/raw/
+data/processed/
+
+# Generated Figures
+
+outputs/
+results/
+temp/
